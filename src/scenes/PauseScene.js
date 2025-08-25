@@ -23,8 +23,8 @@ class PauseScene extends BaseScene {
         textGO.on('pointerover', () => {
             textGO.setStyle({fill: '#ff0'});
         })
-
-        textGO.on('pointerout', () => {
+        
+            textGO.on('pointerout', () => {
             textGO.setStyle({fill: '#fff'});
         })
 
